@@ -54,8 +54,10 @@
 
 ---
 
+
 <!-- !! 週期事項 -->
-<details >
+<details>
+
   <summary>
     <span style="font-size: 18px;">🏖️ 週期事項 #2</span>
   </summary>
@@ -71,6 +73,7 @@
 1. 🔳 每日定時更新事項 => 一到 某時段 就把 `status: true => false`
 2. 🔳 剩餘部分與 TodoList 類似。
 </details>
+
 
 ---
 
@@ -112,3 +115,4 @@
 </details>
 
 ---
+
