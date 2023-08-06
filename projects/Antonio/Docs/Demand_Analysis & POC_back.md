@@ -47,9 +47,8 @@
 ##### 🎈 所需功能
 
 1. 🔳 訂單表格增刪改查 >> `React-Hook-form`
-2. 🔳 產品敘述 >> `Accordion` / `Tab` 顯示方式可選擇。
-3. 🔳 信件觸發 >> `Email.js`
-4. ❓ 行事曆顯示訂單 >> (未選型) >> `Calendar 類型(Weeks)`
+2. 🔳 信件觸發 >> `Email.js`
+3. ❓ 行事曆顯示訂單 >> (未選型) >> `Calendar 類型(Weeks)`
 </details>
 
 ---
@@ -75,7 +74,7 @@
 ---
 
 <!-- !! 商品管理 -->
-<details open>
+<details>
   <summary>
     <span style="font-size: 18px;">🏖️ 商品管理 #3</span>
   </summary>
@@ -94,7 +93,7 @@
 ---
 
 <!-- !! 報表管理 -->
-<details open>
+<details>
   <summary>
     <span style="font-size: 18px;">🏖️ 報表管理 #4</span>
   </summary>
