@@ -1,7 +1,5 @@
 ## E Commerce
 
----
-
 ![](./asset/../assets/Basics-of-ECommerce.jpg)
 
 ### >> Reference:
@@ -9,10 +7,8 @@
 [漁夫先生](https://www.mrfisherman.tw/%E6%B5%B7%E9%AE%AE%E5%A5%97%E7%B5%84B-seafood-Gift-box-b)
 [統一生機](https://www.organicshops.cc/)
 [湯瑪士肉舖](https://www.thomasmeat.com.tw/)
-
-<!-- [MindSet & Diagram Link](https://whimsical.com/e-commerce-MDjY2EtCpDLkeyXaRkwbbx) -->
-
 [Figma](https://www.figma.com/file/iNOVVwhCWzuzXlLcHdZD2v/E_commerce?type=design&node-id=0%3A1&mode=design&t=aP5KVNOiDwt6zrJk-1)
+[MindSet & Diagram Link (須調整修改)](https://whimsical.com/e-commerce-MDjY2EtCpDLkeyXaRkwbbx)
 
 ---
 
@@ -29,7 +25,7 @@ UI： `Tailwind UI / shadcn-ui`
 
 ---
 
-<span style="color: red;">// 下列內容以針對不同前台功能向概略區分</span>
+<span style="color: orange;">下列內容以針對不同前台功能向概略區分</span>
 
 <!-- <img src="./assets/MindSet.png" width="800" alt="架構圖_Diagram" /> -->
 
@@ -51,9 +47,9 @@ UI： `Tailwind UI / shadcn-ui`
 ❓ 訂單查詢 (Query) - `client side`
 ❓ 評分/留言系統 (Comments) - `client side`
 
-> 前台主邏輯架構
+<!-- > 前台主邏輯架構
 
-<img src="./assets/diagram.png" width="400" alt="架構圖_Diagram" />
+<img src="./assets/diagram.png" width="400" alt="架構圖_Diagram" /> -->
 
 ---
 
@@ -66,9 +62,29 @@ UI： `Tailwind UI / shadcn-ui`
 
 ---
 
-##### `更新紀錄`
+### >> :computer: 資料模擬 \_ <span style="font-size: 14px">[Mockdata_DataStructure_Links](./MockData_DataStructure.md)</span>
 
-- 230804 :
-  - 將 `README.md` 作為「入口」進行整理，移除不必要分段、圖片，加入移動連結，避免重點混亂。
-  - 前台加入「購物車系統」，納入開發規劃中。
-  - 區分 POC 測試規劃 (front / back)。
+1. :bulb:商品資訊
+2. :bulb:客戶資訊
+3. :bulb:訂單資訊
+4. :bulb:進貨管理
+
+❓ 進貨商清單與紀錄
+❓ 員工資訊
+❓ 會員系統
+
+---
+
+### >> :volcano: 更新紀錄
+
+###### `23_08_06`
+
+1. 完成 [POC 測試(back)](./Demand_Analysis%20&%20POC_back.md) 初版規劃。
+2. 完成 [Mockdata_DataStructure](./MockData_DataStructure.md) 文件新增。
+
+###### `23_08_04`
+
+1. 將 `README.md` 作為「入口」進行整理，移除不必要分段、圖片，加入移動連結，避免重點混亂。
+2. 前台加入「購物車系統」，納入開發規劃中。
+3. 區分 POC 測試規劃 (front / back)。
+4. 完成 [POC 測試(front)](./Demand_Analysis%20&%20POC_front.md) 初版規劃。
