@@ -14,6 +14,7 @@
 
 ### 後台
 
+<!-- !! 訂單管理 -->
 <details>
   <summary>
     <span style="font-size: 18px;">🏖️ 訂單管理 #1</span>
@@ -46,14 +47,14 @@
 ##### 🎈 所需功能
 
 1. 🔳 訂單表格增刪改查 >> `React-Hook-form`
-2. 🔳 產品敘述 >> `Accordion` / `Tab` 顯示方式可選擇。
-3. 🔳 信件觸發 >> `Email.js`
-4. ❓ 行事曆顯示訂單 >> (未選型) >> `Calendar 類型(Weeks)`
+2. 🔳 信件觸發 >> `Email.js`
+3. ❓ 行事曆顯示訂單 >> (未選型) >> `Calendar 類型(Weeks)`
 </details>
 
 ---
 
-<details open>
+<!-- !! 週期事項 -->
+<details >
   <summary>
     <span style="font-size: 18px;">🏖️ 週期事項 #2</span>
   </summary>
@@ -69,3 +70,44 @@
 1. 🔳 每日定時更新事項 => 一到 某時段 就把 `status: true => false`
 2. 🔳 剩餘部分與 TodoList 類似。
 </details>
+
+---
+
+<!-- !! 商品管理 -->
+<details>
+  <summary>
+    <span style="font-size: 18px;">🏖️ 商品管理 #3</span>
+  </summary>
+
+##### 🎈 目標實現方向
+
+目標: 管理商品顯示狀況
+例如: 商品內容須可以以 `checkbox` 形式做勾選決定顯示與否。
+
+##### 🎈 所需功能
+
+1. 🔳 後臺勾選 True/False，讓前台確認，
+2. 🔳 剩餘部分與 TodoList 類似。
+</details>
+
+---
+
+<!-- !! 報表管理 -->
+<details>
+  <summary>
+    <span style="font-size: 18px;">🏖️ 報表管理 #4</span>
+  </summary>
+
+##### 🎈 目標實現方向
+
+目標: 依使用者想要知道的格式做匯出報告(但非必須)。
+例如: 可以輸出資料內容為一份完整報告為目標
+
+##### 🎈 所需功能
+
+1. 🔳 配合文書功能產製 `PDF` 或是其他類型文件 >> (未確認技術選型)
+2. 🔳 內容資訊應可以客製化選擇 >> `MUI Transfer list` 為初步構想之一，但目標希望 `Tailwind` 支援。
+3. ❓ 或是用選項方式去針對每一條顯示畫面做選擇?!
+</details>
+
+---
