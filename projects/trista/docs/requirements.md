@@ -27,3 +27,4 @@
 - Information
 - Extra order
 - Shipment
+   - Select type of shipment
