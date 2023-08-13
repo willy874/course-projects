@@ -163,12 +163,12 @@ The + means from system
 		- Deliver detail * 
 		- Pay detail * 
 ## Terms
-	- Text only
+- Text only
 ## Support
-	- Text only
+- Text only
 ## Privacy Policy
-	- Text only
+- Text only
 ## Langue
-	- Use i18n
+- Use i18n
 ## Sitemap
-	- Text only
+- Text only
