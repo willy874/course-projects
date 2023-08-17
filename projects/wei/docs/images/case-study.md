@@ -68,10 +68,35 @@
     -   允許多平台登入
 -   鼓勵定時回顧，檢討內容才能實際獲得記帳效益
 
-## 預計功能
+## 預計實作內容
+
+### 預期功能
 
 1. 可使用 email 或第三方登入，也能選擇不登入
-1. 簡單的記帳功能跟帳單內容分析
-    1. 設定日期，可設定未來日及過去日
-    1. 設定分類（待確認是否自定義）
-    1. 圖表分析，以月為時間單位
+2. 可在手機及電腦查看(以手機為主的 RWD )
+3. 記帳功能
+    1. 可設定多個錢包
+    2. 設定日期，可設定未來日及過去日
+    3. 可設定分類
+        1. 無借貸分類（這部分太複雜）
+    4. 可輸入名稱，無備註
+    5. 可針對總金額及個別分類設置預算
+4. 圖表分析
+    1. 以月為單位、柱狀圖分析收入支出（圓餅圖在手機上的字數可能太小）
+    2. 總支出分析、分類分析、同分類且同備註的次數分析（需要在使用前提醒使用者）、金額極值分析
+5. 回饋
+    1. 以輸入當下的回饋為主
+    2. 根據分類給予不同內容的輸入成功用詞
+    3. 每個月固定日期提醒使用者查看圖表分析
+        1. 進入該頁面當下給予鼓勵用詞
+
+### 預期技術
+
+-   框架： [Remix](https://remix.run/) + [TypeScript](https://www.typescriptlang.org/)
+-   UI framework: [Mui](https://mui.com/core/) + [Tailwind](https://tailwindcss.com/)
+-   Input validation: [React Hook Form](https://www.react-hook-form.com/) + [Zod](https://zod.dev/)
+-   API: [Axios](https://github.com/axios/axios)(如果用不到 Interceptor 就不使用)
+-   Cache: [TanStack Query](https://tanstack.com/query/latest)
+-   State management: [Zustand](https://zustand-demo.pmnd.rs/)
+-   Chart Analysis: [VICTORY]https://formidable.com/open-source/victory/ / [Recharts](https://recharts.org/en-US/)
+-   Test Framework: [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
