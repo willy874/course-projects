@@ -1,11 +1,43 @@
 # 運動課程網站 - 前台規劃
 
+## 目錄
+[物件定義](#物件定義)
+[網頁內容](#網頁內容)
 
+## 物件定義
+> 全域屬性
+* container : 1200 px;
+* font-size : 16px;
+
+### Navbar 
+* class="container"
+* height: 160 px;
+> LOGO
+* 物件大小 : width: 20%; height: 100%;
 
 > Navigation
+* 物件大小 : width: 80%; height: 30 px;
+* 項目區域
+    * 大小 : height: 20 px;    
+     * 位置 : left: 0 px;
+    * 排列方式 : display: flex;
+    * 項目
+        * 字型 : font-size: 0.75 rem;  
+        * 排列方式 : justify-content: space-between;
+> MENU
+* 物件大小 : width: 80%; height: 130 px;
+* 排列方式 : display: flex;
+* 項目
+    * 字型 : font-size: 1.25 rem;  
+    * 排列方式 : justify-content: space-between;
 
+## 網頁內容
+### Navbar (背景黑色透明80%，網頁往上滑時顯示顯示在Top，往下滑時消失)
+> LOGO
+
+> Navigation
 1. 購物車圖示與數量
-2. 登入(未登入才有，若已登入就消失)
+2. 登入(未登入顯示人形icon，已登入就顯示名稱)
 - 登入表單
     - Name
     - Password
@@ -30,8 +62,7 @@
             - 結帳按鈕
 4. 多國語言(地球icon，點擊後出現Collapse，En or 繁中)
 
-> Navbar (背景黑色透明80%，網頁往上滑時顯示顯示在Top，往下滑時消失)
-
+> MENU
 1. 首頁
 * Banner圖片輪播
     - 兩側有箭頭icon
