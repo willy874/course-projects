@@ -47,13 +47,14 @@
         2. 尺寸設定
            1. 預先輸入尺寸
               1. input 框
-                 1. 輸入限制 number
+                 1. 輸入限制 type="number"
               2. 單位 px
            2. 拖拉方式調整現有圖片尺寸，做法參考以下網站
               1. [參考1](https://juejin.cn/post/7117990537004580878)
               2. [參考2](https://cloud.tencent.com/developer/article/1938617)
         3. 圖片圓角設定
-           1. input框輸入 type="number"
+           1. input框輸入
+              - type="number"
            2. 預設為0
            3. 單位 %
            4. 最多50 (圓形)
@@ -111,6 +112,11 @@
    2. 右側編輯區塊
       - header
         - 圖層調整（❌背景除外）
+           - z-index 做圖層調整
+           - 預設圖層
+              - 圖片 1
+              - 文字 2
+              - QRCode 2
       - body
         1. 拖拽方式移動排版 
            1. [參考](https://codepen.io/DeyJordan/pen/oNaavJg)
