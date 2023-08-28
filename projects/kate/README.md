@@ -25,12 +25,15 @@
 
 ### 前台
 
-![image](https://github.com/kate19881110/food-entrepreneurship/blob/master/src/img/png/%E5%89%8D%E5%8F%B0-%E5%8A%9F%E8%83%BD%E8%AA%AA%E6%98%8E.png)
+![image](https://github.com/willy874/course-projects/blob/kate-project-doc/projects/kate/docs/%E5%89%8D%E5%8F%B0-%E5%8A%9F%E8%83%BD%E8%AA%AA%E6%98%8E.png)
 
 ### 後台
 
-![image](https://github.com/kate19881110/food-entrepreneurship/blob/master/src/img/png/%E5%BE%8C%E5%8F%B0-%20%E5%8A%9F%E8%83%BD%E8%AA%AA%E6%98%8E.png)
+![image](https://github.com/willy874/course-projects/blob/kate-project-doc/projects/kate/docs/%E5%BE%8C%E5%8F%B0-%20%E5%8A%9F%E8%83%BD%E8%AA%AA%E6%98%8E.png)
 
-![image](https://github.com/kate19881110/food-entrepreneurship/blob/master/src/img/png/%E5%BE%8C%E5%8F%B01-%E5%B0%8F.png)
+![image](https://github.com/willy874/course-projects/blob/kate-project-doc/projects/kate/docs/%E5%BE%8C%E5%8F%B01-%E5%B0%8F.png)
 
-![image](https://github.com/kate19881110/food-entrepreneurship/blob/master/src/img/png/%E5%BE%8C%E5%8F%B02-%E5%B0%8F.png)
+![image](https://github.com/willy874/course-projects/blob/kate-project-doc/projects/kate/docs/%E5%BE%8C%E5%8F%B02-%E5%B0%8F.png)
+
+### Jira 工作進度表
+https://kate20210906.atlassian.net/jira/core/projects/IJPC/list
