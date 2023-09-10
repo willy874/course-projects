@@ -1,5 +1,7 @@
 # DIY Card 規格
 
+UI框架：Quasar
+
 1. 主頁
    1. 左側欄位
       - 文字
@@ -19,52 +21,67 @@
              - 24px
              - 32px
            - 單位px 
+           - Ui：Button Toggle
+             - Basic
+              
+               ![](../imgs/button-toggle-basic.png) 
         3. 粗體
            1. 預設 weight 400
            2. 加粗變 600
+           3. Ui：Button - Standard
+
+              ![](../imgs/button-standard.png) 
         4. 斜體
            1. 對focus的文字區塊，給class name對應css效果 - font-style: italic
-        1. 一鍵全大寫
+           2. Ui：Button - Standard
+
+              ![](../imgs/button-standard.png) 
+        5. 一鍵全大寫
            1. 對focus的文字區塊，使用toUpperCase()做切換
            2. 切換大寫時候，原本的大小寫區分需保留暫存，再次切換時才可還原
-        2. 顏色修改
-           1. 對focus的文字區塊，使用 
-          
-          ```html
-          <input type="color">
-          ``` 
-           選取顏色後，取得色碼，給予區塊id name ， css效果 - font-color : #xxx
+           3. Ui：Button - Standard
+
+              ![](../imgs/button-standard.png)
+        6. 顏色修改
+           1. 對focus的文字區塊，選取顏色後，取得色碼，給予區塊class name ， css效果 - font-color : #xxx
+           2. Ui：color - picker - WithQInput
+
+            ![](../imgs/color-pick-withQInput.png)
       - 圖片
         1. 上傳圖片
            1. 上傳圖檔類型限制
               - png
               - jpg
            2. 上傳圖片預覽框 寬高：100 - 200 px 正方形
-           3. 上傳做法 - 以下參考網站，實際實驗後挑選合適 或 各取其中需要的部分
-              1. [參考1](https://codepen.io/l13013312333/pen/PEdbxe) 
-              2. [參考2](https://ithelp.ithome.com.tw/m/articles/10269464)
-              3. [參考3](https://ithelp.ithome.com.tw/articles/10270889)
+           3. Ui：uploader-custom-files-list
+
+            ![](../imgs/uploader-custom-files-list.png)
+            - 需嘗試看看，是否有上傳檔案大小限制
         2. 尺寸設定
            1. 預先輸入尺寸
               1. input 框
-                 1. 輸入限制 type="number"
+                 - UI : input-textfield-standout
+
+                     ![](../imgs/input-textfield-standout.png) 
               2. 單位 px
            2. 拖拉方式調整現有圖片尺寸，做法參考以下網站
               1. [參考1](https://juejin.cn/post/7117990537004580878)
               2. [參考2](https://cloud.tencent.com/developer/article/1938617)
         3. 圖片圓角設定
            1. input框輸入
-              - type="number"
+              - UI : input-textfield-standout
+
+                  ![](../imgs/input-textfield-standout.png) 
            2. 預設為0
            3. 單位 %
            4. 最多50 (圓形)
       - 背景 
         1. 純色
            1. 使用color picker 選定顏色
-           
-           ```html 
-           <input type="color">
-           ```
+            2. Ui：color - picker - WithQInput
+
+               ![](../imgs/color-pick-withQInput.png)
+            
            2. 選定後，對背景區塊加上style 變更顏色
         2. 漸層
            1. 使用color pick 選定兩個顏色
@@ -77,12 +94,21 @@
             ```
             ![](../imgs/漸層範本.png)
 
-           2. 調整漸層方向（上→下、下→上、左→右、右→左）
-           3. 設立4個button，替換 css linear-gradient 第一個參數 
+         3. Ui：color - picker - WithQInput
+
+            ![](../imgs/color-pick-withQInput.png)
+
+           1. 調整漸層方向（上→下、下→上、左→右、右→左）
+           2. 設立4個button，替換 css linear-gradient 第一個參數 
                - 上→下 : to top
                - 下→上 : to bottom
                - 左→右 : to left
                - 右→左 : to right
+           3. Ui：Button Toggle - Basic
+
+               ![](../imgs/button-toggle-basic.png)
+
+               
         3. 圖片做背景
            1. 實作方式，參照圖片上傳
            2. 直接對背景做背景圖片添加 
